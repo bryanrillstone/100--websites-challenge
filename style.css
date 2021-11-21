@@ -6,7 +6,7 @@ body {
 }
 
 .zone {
-    font-size:2em;
+    font-size: 2rem;
     transition: all 0.3s linear;
 }
 
@@ -46,7 +46,6 @@ a {
     text-decoration: none;
 }
     
-
 /***********************************************************************
  *  Cover
  **********************************************************************/
@@ -56,20 +55,17 @@ a {
     text-align: center;
 }
 h1 {
-    font-size: 90px;
+    font-size: 5rem;
     text-transform: uppercase;
 
 }
-
 .link {
     color: black;
     text-decoration: underline;
 }
-
 p {
-    font-size: 20px;
+    font-size: 1.2rem;
 }
-
 .container_other {
     height: 100vh; 
     display: flex;
@@ -82,7 +78,6 @@ p {
     justify-content: center;
     width: 50vw;
 }
-
 
 /***********************************************************************
  *  Marquee Container
