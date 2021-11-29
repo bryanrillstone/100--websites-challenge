@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Secret Santa</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header-container">
+		<h1 class="header">Secret Santa</h1>
+	</div>
+	<div class="content-container">
+		<div class="first-container">
+			<div class="input-container">
+				<h2 class="participant">Add participants:</h2>
+				<input id="userinput" type="text" placeholder="Name">
+				<button class="holiBtn" id="enter">Enter</button>
+			</div>
+			<div class="list-container">
+				<ul>
+				</ul>
+				<button class="holiBtn" id="hideBtn">Hide/Unhide</button>
+			</div>
+		</div>
+		<div class="person-container">
+			<button class="holiBtn" id="getBtn">Select</button>
+			<h2>Your person is <span id="person"></span>!</h2>
+			<button class="holiBtn" id="clearBtn">Clear</button>
+		</div>
+	</div>
+	<footer class="footer">Photo by <a href="https://unsplash.com/@artboardstudio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Artboard Studio</a> on <a href="https://unsplash.com/s/photos/christmas-background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

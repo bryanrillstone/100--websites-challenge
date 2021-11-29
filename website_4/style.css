@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  font-family: 'Mountains of Christmas', serif, cursive;
+  padding: 0;
+  margin: 0;
+  background-image: url(background.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  font-size: 100px;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.participant {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+
+.first-container {
+  padding-right: -100px;
+  margin-right: -100px;
+}
+
+.person-container {
+  padding-left: -100px;
+  margin-left: -100px;
+}
+
+ul {
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.hideUnhide {
+  display: none;
+}
+
+#person {
+  text-decoration: underline;
+}
+
+.holiBtn {
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: #106217;
+  border: 1px solid transparent;
+  padding: 0.275rem 0.75rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.holiBtn:hover {
+  color: #fff;
+  background-color: #07290a;
+}
+
+.footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  padding-bottom: 10px;
+  text-align: center;
+  }
+
