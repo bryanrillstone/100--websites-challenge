@@ -95,12 +95,12 @@ p {
     border-bottom: 1px solid black;
 }
 
-.marquee-title {
+.marquee_title {
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
 
-.marquee-link {
+.marquee_link {
     padding-top: 0px;
     margin-top: 0px;
 }
