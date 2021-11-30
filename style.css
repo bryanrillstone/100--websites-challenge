@@ -6,7 +6,7 @@ body {
 }
 
 .zone {
-    font-size: 2rem;
+    font-size: 2em;
     transition: all 0.3s linear;
 }
 
@@ -46,26 +46,27 @@ a {
     text-decoration: none;
 }
     
+
 /***********************************************************************
  *  Cover
  **********************************************************************/
 .container {
-    height: 40vh; 
     display: block;
     text-align: center;
 }
 h1 {
-    font-size: 5rem;
     text-transform: uppercase;
-
 }
+
 .link {
     color: black;
     text-decoration: underline;
 }
+
 p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
+
 .container_other {
     height: 100vh; 
     display: flex;
@@ -78,6 +79,7 @@ p {
     justify-content: center;
     width: 50vw;
 }
+
 
 /***********************************************************************
  *  Marquee Container
@@ -93,11 +95,20 @@ p {
     border-bottom: 1px solid black;
 }
 
+.marquee-title {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.marquee-link {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
 /***********************************************************************
  *  Websites Container
  **********************************************************************/
  .websites_container {
-    height: 25vh; 
     padding-top: 10px;
     text-transform: uppercase;
 }
